@@ -43,6 +43,5 @@
     ├── ConsoleApp.java
     ├── Task.java
     ├── TaskService.java
-    └── TaskManagerApplication.java
     ```
 
