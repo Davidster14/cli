@@ -39,7 +39,7 @@
 
 - **Projektstruktur:**
     ```
-    com.example.taskmanager
+    com.example.cli
     ├── ConsoleApp.java
     ├── Task.java
     ├── TaskService.java
