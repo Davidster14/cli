@@ -3,10 +3,13 @@ package com.example.cli;
 import java.util.Scanner;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 
+
+@SpringBootApplication
 public class ConsoleApp implements CommandLineRunner{
     @Autowired
     private TaskService taskService;
@@ -54,7 +57,5 @@ public class ConsoleApp implements CommandLineRunner{
             
         }
     }
-
-
 
 }
